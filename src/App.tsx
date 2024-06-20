@@ -1,11 +1,10 @@
-import { Typography } from "@mui/material"
+import Dashboard from "./pages/admin/Dashboard"
 
 function App() {
   
-
   return (
     <>
-      <Typography color={"primary"}>Hello world</Typography>
+      <Dashboard />
     </>
   )
 }
