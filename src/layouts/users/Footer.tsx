@@ -1,5 +1,5 @@
-import {Typography} from "@mui/material";
-import {GradientBox} from "../../gradients/GradientColor.tsx";
+import { Typography } from "@mui/material";
+import { GradientBox } from "../../gradients/GradientColor";
 
 const Footer = () => {
     return <GradientBox sx={{
@@ -11,6 +11,7 @@ const Footer = () => {
     }}>
         <Typography sx={{color: 'white'}}>© 2024 Your Company. All rights reserved.</Typography>
     </GradientBox>;
+
 }
 
 export default Footer;
